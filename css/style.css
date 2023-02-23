@@ -23,15 +23,27 @@ img{
 /*MAIN*/
 main{
   background-color: black;
-  height: 90%;
+  height:80%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 50px;
+  overflow: auto;
 }
 
 main .image-user{
   width: 180px;
   height: 115px;
   margin: 10px auto;
+  color: white;
+}
+
+main .image-user span{
+  color: white;
+  position: relative;
+  bottom: 25px;
+  left:2px;
+  font-size: x-small;
+  padding: 3px;
+  background-color: rgba(90, 88, 88, 0.7);
 }
