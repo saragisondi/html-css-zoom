@@ -14,13 +14,15 @@ img{
 }
 
 ul li{
-  list-style: none;
+  list-style:none;
   display: inline-block;
+  margin-left: 40px;
 }
 
 a{
   text-decoration: none;
   color: white;
+  margin: 0 30px;
 }
 
 .container{
@@ -67,31 +69,28 @@ footer{
   
 }
 
+/*ICONS*/
 footer .icons{
-  display: flex;
+  display:flex ;
   justify-content: space-between;
 }
 
-footer .icons .toolbar a{
-  position: relative;
-  left: 5px;
-  margin:15px;
-}
+/*TEXT*/
 
 footer .text{
-  display: flex;
   font-size: x-small;
+  display:flex ;
+  margin: 5px 0;
 }
 
-.audio-video li{
-  position: relative;
-  margin: 5px 10px;
+
+/*TOOLBAR*/
+footer .toolbar{
+margin: 0 auto;
 }
 
-.toolbar li{
-  position: relative;
-  left:350px;
-  margin: 5px 5px;
+footer .icons .toolbar a:nth-child(4){
+  margin:0 auto ;
 }
 
 footer a .fa-solid.fa-angle-up{
