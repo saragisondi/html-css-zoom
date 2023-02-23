@@ -5,17 +5,35 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
 img{
   max-width: 100%;
+}
+
+.container{
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 
 /*HEADER*/
 
-
 /*MAIN*/
-main .image-container{
+main{
+  background-color: bisque;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main .image-user{
   width: 180px;
   height: 115px;
   background-color: black;
+  border: 1px solid coral;
 }
