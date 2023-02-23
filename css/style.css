@@ -17,6 +17,7 @@ ul li{
   list-style:none;
   display: inline-block;
   margin-left: 40px;
+  position: relative;
 }
 
 a{
@@ -31,6 +32,32 @@ a{
   margin: 0 auto;
 }
 /*HEADER*/
+header .button{
+  background-color: rgba(90, 88, 88, 0.7);
+  padding: 5px;
+  font-size: x-small;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 106px;
+  position: relative;
+  left:1230px;
+  top:27px;
+}
+
+header .button.icon{
+  background-color: rgba(90, 88, 88, 0.7);
+  padding: 5px;
+  font-size: x-small;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 30px;
+  position: relative;
+  left: 1230px;
+  top:27px;
+  
+}
 
 /*MAIN*/
 main{
@@ -75,6 +102,15 @@ footer .icons{
   justify-content: space-between;
 }
 
+/*AUDIO-VIDEO*/
+footer .audio-video li:first-child{
+right:15px;
+}
+
+footer .audio-video li:last-child{
+  left:73px;
+  }
+
 /*TEXT*/
 
 footer .text{
@@ -101,9 +137,44 @@ footer .toolbar a:nth-child(4){
   color:#4bc800;
 }
 
+footer .toolbar li:first-child{
+left:25px;
+}
+
+footer .toolbar li:nth-child(2){
+  left:25px;
+}
+
+footer .toolbar li:nth-child(3){
+  left:10px;
+}
+
+footer .toolbar li:nth-child(4){
+  right:15px;
+}
+
+footer .toolbar li:nth-child(6){
+  right:13px;
+}
+
+footer .toolbar li:nth-child(7){
+  left:12px;
+}
+
+footer .toolbar li:nth-child(8){
+  left:10px;
+}
+
+footer .toolbar li:nth-child(9){
+  left:5px;
+}
+
+
 footer .button{
   background-color: rgba(90, 88, 88, 0.7);
   padding: 5px;
   font-size: x-small;
   color: red;
+  border: none;
+  width: 90px;
 }
