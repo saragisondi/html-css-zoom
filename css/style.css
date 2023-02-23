@@ -13,6 +13,11 @@ img{
   max-width: 100%;
 }
 
+ul li{
+  list-style: none;
+  display: inline-block;
+}
+
 a{
   text-decoration: none;
   color: white;
@@ -58,6 +63,48 @@ footer{
   padding: 10px;
   background-color: #222222;
   color: white;
+  font-size: 22px;
+  
+}
+
+footer .icons{
   display: flex;
   justify-content: space-between;
+}
+
+footer .icons .toolbar a{
+  position: relative;
+  left: 5px;
+  margin:15px;
+}
+
+footer .text{
+  display: flex;
+  font-size: x-small;
+}
+
+.audio-video li{
+  position: relative;
+  margin: 5px 10px;
+}
+
+.toolbar li{
+  position: relative;
+  left:350px;
+  margin: 5px 5px;
+}
+
+footer a .fa-solid.fa-angle-up{
+  font-size: 8px;
+}
+
+footer .toolbar a:nth-child(4){
+  color:#4bc800;
+}
+
+footer .button{
+  background-color: rgba(90, 88, 88, 0.7);
+  padding: 5px;
+  font-size: x-small;
+  color: red;
 }
