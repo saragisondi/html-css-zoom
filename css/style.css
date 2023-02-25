@@ -15,9 +15,6 @@ img{
 
 ul li{
   list-style:none;
-  display: inline-block;
-  margin-left: 10px;
-  position: relative;
 }
 
 a{
@@ -94,12 +91,6 @@ footer{
   color: white;
   font-size: 22px;
   
-}
-
-/*ICONS GENERAL*/
-footer .icons{
-  display:flex ;
-  justify-content: space-between;
 }
 
 
