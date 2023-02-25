@@ -16,14 +16,13 @@ img{
 ul li{
   list-style:none;
   display: inline-block;
-  margin-left: 40px;
+  margin-left: 10px;
   position: relative;
 }
 
 a{
   text-decoration: none;
   color: white;
-  margin: 0 30px;
 }
 
 .container{
@@ -43,6 +42,7 @@ header .button{
   position: relative;
   left:1230px;
   top:27px;
+  cursor: pointer;
 }
 
 header .button.icon{
@@ -96,35 +96,26 @@ footer{
   
 }
 
-/*ICONS*/
+/*ICONS GENERAL*/
 footer .icons{
   display:flex ;
   justify-content: space-between;
 }
 
-/*AUDIO-VIDEO*/
-footer .audio-video li:first-child{
+/*ICONS AUDIO-VIDEO*/
+footer .icons .audio-video a{
+  margin: 0 3px;
+}
+
+footer .icons .audio-video li:first-child{
 right:15px;
 }
 
 footer .audio-video li:last-child{
   left:73px;
-  }
-
-/*TEXT*/
-
-footer .text{
-  font-size: x-small;
-  display:flex ;
-  margin: 5px 0;
 }
 
-
-/*TOOLBAR*/
-footer .toolbar{
-margin: 0 auto;
-}
-
+/*ICONS TOOLBAR*/
 footer .icons .toolbar a:nth-child(4){
   margin:0 auto ;
 }
@@ -135,6 +126,27 @@ footer a .fa-solid.fa-angle-up{
 
 footer .toolbar a:nth-child(4){
   color:#4bc800;
+}
+
+/*TEXT GENERAL*/
+footer .text{
+  font-size: x-small;
+  display:flex ;
+  margin: 5px 0;
+}
+
+/*TEXT AUDIO-VIDEO*/
+footer .audio-video li:first-child{
+  right: 11px;
+}
+
+footer .audio-video li:nth-child(2){
+  left: 1px;
+}
+
+/*TEXT TOOLBAR*/
+footer .toolbar{
+margin: 0 auto;
 }
 
 footer .toolbar li:first-child{
@@ -169,6 +181,7 @@ footer .toolbar li:nth-child(9){
   left:5px;
 }
 
+/*BUTTON*/
 
 footer .button{
   background-color: rgba(90, 88, 88, 0.7);
@@ -177,4 +190,5 @@ footer .button{
   color: red;
   border: none;
   width: 90px;
+  cursor: pointer;
 }
