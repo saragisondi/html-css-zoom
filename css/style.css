@@ -108,7 +108,7 @@ footer span{
   font-size: medium;
 }
 
-footer .icons.share :first-child a{
+footer .icons.share :first-child{
   color:#4bc800;
 }
 
