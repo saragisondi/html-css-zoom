@@ -13,10 +13,6 @@ img{
   max-width: 100%;
 }
 
-ul li{
-  list-style:none;
-}
-
 a{
   text-decoration: none;
   color: white;
@@ -90,18 +86,38 @@ footer{
   background-color: #222222;
   color: white;
   font-size: 22px;
-  
 }
-
 
 /*BUTTON*/
 
+footer {
+ display: flex;
+ justify-content: space-between;
+}
+
+footer div{
+  display: flex;
+
+}
+footer .icons{
+  flex-direction: column;
+  padding: 5px;
+  align-items: center;
+}
+footer span{
+  font-size: medium;
+}
+
+footer .icons.share :first-child a{
+  color:#4bc800;
+}
+
 footer .button{
   background-color: rgba(90, 88, 88, 0.7);
-  padding: 5px;
+  width: 90px;
+  padding: 10px;
   font-size: x-small;
   color: red;
   border: none;
-  width: 90px;
   cursor: pointer;
 }
